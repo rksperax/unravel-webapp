@@ -4,7 +4,7 @@ A highly optimized, responsive hotel room listing application built with React, 
 
 ## 🚀 Live Demo
 
-[View Live Application](https://fe-hotel.vercel.app/)
+[View Live Application](https://unravel-webapp.vercel.app/)
 
 ## 📋 Table of Contents
 
@@ -145,8 +145,8 @@ src/
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/hotel-room-listing.git
-cd hotel-room-listing
+git clone git@github.com:rksperax/unravel-webapp.git
+cd unravel-webapp
 ```
 
 2. **Install dependencies**
