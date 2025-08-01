@@ -22,6 +22,7 @@ A highly optimized, responsive hotel room listing application built with React, 
 
 ## ✨ Features
 
+
 ### Core Features
 
 - **Responsive Design**: Fully responsive layout supporting mobile, tablet, and desktop
@@ -394,6 +395,7 @@ const useVideoViewport = {
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -407,6 +409,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ by Saksham Jaiswal**
+**Built with ❤️ by Rajan Kumar**
 
 For questions or support, please open an issue in the GitHub repository.
