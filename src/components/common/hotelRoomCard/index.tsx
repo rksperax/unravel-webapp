@@ -151,8 +151,8 @@ const HotelRoomCard: React.FC<HotelRoomCardProps> = ({
                     onClick={() => setCurrentMediaIndex(index)}
                     className={`w-2 h-2 rounded-full transition-colors ${
                       index === currentMediaIndex
-                        ? "bg-white"
-                        : "bg-white bg-opacity-50"
+                        ? "bg-[#fafbed]"
+                        : "bg-[#fafbed] bg-opacity-50"
                     }`}
                   />
                 ))}

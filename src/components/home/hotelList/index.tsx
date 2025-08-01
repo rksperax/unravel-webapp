@@ -90,9 +90,9 @@ const InfiniteRoomList: React.FC = () => {
 
   if (loading && displayedHotels.length === 0) {
     return (
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-[#fafbed]">
         {/* Unravel Header */}
-        <div className="bg-white shadow-sm border-b">
+        <div className="bg-[#fafbed] shadow-sm border-b">
           <div className="max-w-7xl mx-auto px-4 py-4">
             {/* Brand Header */}
             <div className="flex items-center justify-between mb-4">
@@ -155,9 +155,9 @@ const InfiniteRoomList: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-[#fafbed]">
       {/* Unravel Header */}
-      <div className="bg-white shadow-sm border-b">
+      <div className="bg-[#fafbed] shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 py-4">
           {/* Brand Header */}
           <div className="flex items-center justify-between mb-4">

@@ -41,7 +41,7 @@ const HotelDetails: React.FC = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="min-h-screen bg-[#fafbed] flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
           <p className="text-gray-600">Loading hotel details...</p>
@@ -52,7 +52,7 @@ const HotelDetails: React.FC = () => {
 
   if (!hotel) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="min-h-screen bg-[#fafbed] flex items-center justify-center">
         <div className="text-center">
           <h1 className="text-2xl font-bold text-gray-900 mb-4">
             Hotel Not Found
@@ -72,9 +72,9 @@ const HotelDetails: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-[#fafbed]">
       {/* Header with Back Button */}
-      <div className="bg-white shadow-sm border-b">
+      <div className="bg-[#fafbed] shadow-sm border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center h-16">
             <button
@@ -195,7 +195,7 @@ const HotelDetails: React.FC = () => {
                 {hotel.amenities.map((amenity, index) => (
                   <div
                     key={index}
-                    className="flex items-center p-3 bg-gray-50 rounded-lg"
+                    className="flex items-center p-3 bg-[#fafbed] rounded-lg"
                   >
                     <span className="text-blue-600 mr-2">✓</span>
                     <span className="text-sm text-gray-700">{amenity}</span>

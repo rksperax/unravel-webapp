@@ -208,8 +208,8 @@ const HotelCard: React.FC<HotelCardProps> = React.memo(
                     onClick={(e) => selectMedia(index, e)}
                     className={`w-2 h-2 rounded-full transition-colors ${
                       index === currentMediaIndex
-                        ? "bg-white"
-                        : "bg-white bg-opacity-50"
+                        ? "bg-[#fafbed]"
+                        : "bg-[#fafbed] bg-opacity-50"
                     }`}
                   />
                 ))}
@@ -218,7 +218,7 @@ const HotelCard: React.FC<HotelCardProps> = React.memo(
           )}
 
           {/* Hotel Rating Badge */}
-          <div className="absolute top-4 left-4 bg-white bg-opacity-95 rounded-lg px-3 py-1 z-10">
+          <div className="absolute top-4 left-4 bg-[#fafbed] bg-opacity-95 rounded-lg px-3 py-1 z-10">
             <div className="flex items-center">
               <span className="text-yellow-400 text-sm">⭐</span>
               <span className="ml-1 text-sm font-semibold">

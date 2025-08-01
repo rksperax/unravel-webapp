@@ -68,7 +68,7 @@ const LoadingFallback: React.FC = () => (
       </div>
 
       {/* Hotel amenities preview */}
-      <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-lg max-w-md mx-auto">
+      <div className="bg-[#fafbed]/70 backdrop-blur-sm rounded-xl p-6 shadow-lg max-w-md mx-auto">
         <div className="flex justify-center space-x-6 text-gray-600">
           <div className="text-center">
             <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mb-2 mx-auto">

@@ -5,12 +5,12 @@ function DefaultLayout({
   MainContentComponent: React.FC;
 }) {
   return (
-    <div className="bg-neutral-greys-950">
+    <div className="bg-[#fafbed]">
       <div
         className={` 
                     ${"min-h-screen"}  
                    
-                    bg-neutral-greys-950 max-w-[1114px] mx-auto pb-[85px]`}
+                    bg-[#fafbed] max-w-[1114px] mx-auto pb-[85px]`}
       >
         <MainContentComponent />
       </div>
